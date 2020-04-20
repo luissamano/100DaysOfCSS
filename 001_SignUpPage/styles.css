@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("resources/anton-repponen-sfgH9dXcMRw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.divOpacity {
+  width: 85%;
+  height: 48rem;
+  opacity: 0.5;
+  margin: 10rem;
+  padding: 1rem;
+  border-radius: 4rem;
+  background-color: black;
+}
+
+.frame {
+  padding: 2rem 2rem;
+  border-radius: 4rem;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.divider-vertical {
+  width: 1px;
+  height: 550px;
+  margin-left: 0;
+  margin-right: 0;
+  border-left: 1px solid #e5e5e5;
+}
+
+.info {
+  width: calc(30%);
+}
+
+.form {
+  width: calc(56%);
+}
+
+.group-form {
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.label {
+  color: white;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 18px;
+  border-style: double;
+  border-radius: 0.3rem;
+  color: white;
+  background-color: black;
+}
+
+.input:focus {
+  border-color: purple;
+  border-style: solid;
+}
+
+.button{
+  padding: .6rem 3rem;
+}
+
+.button:hover {
+  background: purple;
+}
+
+img {
+  animation: animar 5s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+
+h3 {
+  font-size: 32px;
+  color: azure;
+  text-align: center;
+}
+
+@keyframes animar {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
